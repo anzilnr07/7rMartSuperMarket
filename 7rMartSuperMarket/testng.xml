@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="parameterLogintest">
+<parameter name="username" value="admin"></parameter>
+<parameter name="password" value="admin"></parameter><classes>
+<class name="testscript.LoginPagetest"></class>
+<class name="testscript.Homepagetest"></class>
+<class name="testscript.AdminUserNewUsertest"></class>
+<class name="testscript.Editcontactus_managecontact_test"></class>
+<class name="testscript.Managenewstest"></class>
+<class name="testscript.Managecatogerytest"></class>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
